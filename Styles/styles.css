@@ -238,7 +238,7 @@ nav {
 
 .hero-text p {
    font-size: 1.2rem;
-   color: var(--text-gray);
+   color: var(--text-dark);
    margin-bottom: 2rem;
    line-height: 1.6;
    max-width: 520px;
@@ -1280,3 +1280,4 @@ footer {
        font-size: 0.9rem;
    }
 }
+
