@@ -437,6 +437,26 @@ nav {
    color: var(--black);
 }
 
+.all-services{
+   text-align: center;
+   font-size: 1rem;
+   margin-top: 2rem;
+   color: var(--yellow);
+}
+
+.all-services a{
+   text-decoration: none;
+   font-size: 1.1rem;
+   font-weight: 600;
+   color: var(--dark-gray);
+   transition: color 0.3s;
+}
+
+.all-services a:hover{
+   color: var(--yellow);
+   transition: color 0.5s;
+}
+
 .cards-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
