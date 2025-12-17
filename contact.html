@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - M M Auto Care</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+44 123 456 7890">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Required</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="mot">MOT Testing</option>
+                            <option value="servicing">Car Servicing</option>
+                            <option value="bodywork">Bodywork</option>
+                            <option value="paint">Paint Services</option>
+                            <option value="brakes">Brake Services</option>
+                            <option value="engine">Engine Repair</option>
+                            <option value="exhaust">Exhaust Systems</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Tell us about your vehicle and what you need..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                    </button>
+                </form>
+                <div id="formMessage" class="form-message"></div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info-wrapper">
+                <h2>Get In Touch</h2>
+
+                <div class="contact-info-card">
+                    <div class="info-icon"><img src="images/location.png" alt="location"></div>
+                    <div class="info-content">
+                        <h3>Location</h3>
+                        <p>123 Auto Street<br>City, County<br>Postal Code</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="info-icon"><img src="images/phone.png" alt="phone"></div>
+                    <div class="info-content">
+                        <h3>Phone</h3>
+                        <p>+44 123 456 7890<br>Mon-Fri: 8AM-6PM<br>Sat: 9AM-4PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="info-icon"><img src="images/email.png" alt="email"></div>
+                    <div class="info-content">
+                        <h3>Email</h3>
+                        <p>info@mmautocare.com<br>service@mmautocare.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="info-icon"><img src="images/clock.png" alt="clock"></div>
+                    <div class="info-content">
+                        <h3>Opening Hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <h2 class="section-title">Find Us</h2>
+
+        <div class="map-placeholder">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.351678095246!2d-2.59336!3d51.5019981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871911345392ad7%3A0xe4030403087d278e!2sM%20M%20Auto%20Care!5e0!3m2!1sen!2slk!4v1733730000000"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="./Js/script.js"></script>
+</body>
+
+</html>
